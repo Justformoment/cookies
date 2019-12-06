@@ -15,9 +15,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    /**
-     * Called when the cookie should be eaten.
-     */
     public void eatCookie(View view) {
         // TODO: Find a reference to the ImageView in the layout. Change the image.
         ImageView imageView = (ImageView) findViewById(R.id.android_cookie_image_view);
